@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="testfile1"
+    errors="1" failures="1" hostname="" id="" package="testfile1" skipped="0"
+    tests="2" time="7.726" timestamp="">
+  
+    <testcase name="Step one: Navigate to google.com and verify URL and title" classname="testfile1" time="1.569" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step two: Search &#39;Nightwatch&#39; and verify result" classname="testfile1" time="6.157" assertions="1">  <failure message="Testing if element &lt;#main&gt; contains text &#39;nightwatch&#39; in 5000ms - expected &#34;contains text &#39;nightwatch&#39;&#34; but got: &#34;element could not be located&#34; (5086ms)">    at Object.Step two: Search &#39;Nightwatch&#39; and verify result (E:\NightwatchJS\Headless\nightwatch-headless-firefox\tests\testfile1.js:16:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;#main&gt;[0m contains text [0;33m&#39;nightwatch&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;nightwatch&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5086ms)[0m" type="error"><![CDATA[
+        at Object.Step two: Search &#39;Nightwatch&#39; and verify result (E:\NightwatchJS\Headless\nightwatch-headless-firefox\tests\testfile1.js:16:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .getText() command on &lt;#main&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
